@@ -102,7 +102,9 @@ sub {
 }
 
 img {
-    border: 0
+    border: 0;
+    width: 100px;
+    height: 100px
 }
 
 svg:not(:root) {
