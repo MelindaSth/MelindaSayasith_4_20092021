@@ -277,7 +277,7 @@ a:hover {
 }
 
 .remark {
-    font-size: 1.5em;
+    font-size: 18px;
 }
 
 .voffset-lg {
@@ -765,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(100, 86, 50, 0.95);
     padding: 40px 40px 40px 40px;
 }
 
@@ -825,9 +825,9 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
+/* .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+} */
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");

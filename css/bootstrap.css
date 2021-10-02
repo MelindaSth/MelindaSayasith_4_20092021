@@ -63,8 +63,7 @@ abbr[title] {
     border-bottom: 1px dotted
 }
 
-b,
-strong {
+b {
     font-weight: 700
 }
 
@@ -1423,7 +1422,8 @@ a:focus {
 }
 
 figure {
-    margin: 0
+    margin: 0;
+    font-size: 18px;
 }
 
 img {
