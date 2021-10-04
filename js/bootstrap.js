@@ -43,7 +43,7 @@
             }
         })
     })
-}(jQuery), + function(a) {
+(jQuery), + function(a) {
     "use strict";
 
     function b(b) {
