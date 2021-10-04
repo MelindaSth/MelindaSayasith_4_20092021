@@ -374,11 +374,6 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             f || e.data("bs.modal", f = new c(this, g)), "string" == typeof b ? f[b](d) : g.show && f.show(d)
         })
     }
-    var c = function(b, c) {
-        this.options = c, this.$body = a(document.body), this.$element = a(b), this.$dialog = this.$element.find(".modal-dialog"), this.$backdrop = null, this.isShown = null, this.originalBodyPad = null, this.scrollbarWidth = 0, this.ignoreBackdropClick = !1, this.options.remote && this.$element.find(".modal-content").load(this.options.remote, a.proxy(function() {
-            this.$element.trigger("loaded.bs.modal")
-        }, this))
-    };
     c.VERSION = "3.3.5", c.TRANSITION_DURATION = 300, c.BACKDROP_TRANSITION_DURATION = 150, c.DEFAULTS = {
         backdrop: !0,
         keyboard: !0,
