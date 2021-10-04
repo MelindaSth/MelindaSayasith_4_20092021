@@ -11,10 +11,10 @@
  * Dual licensed under the MIT or GPL Version 2 licenses.
  *
  */
-// ! function(factory) {
-//     "function" == typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jQuery)
-// }(function($) {
-//     "use strict";
+! function(factory) {
+    "function" == typeof define && define.amd && define.amd.jQuery ? define(["jquery"], factory) : factory("undefined" != typeof module && module.exports ? require("jquery") : jQuery)
+}(function($) {
+    "use strict";
 
     function init(options) {
         return !options || void 0 !== options.allowPageScroll || void 0 === options.swipe && void 0 === options.swipeStatus || (options.allowPageScroll = NONE), void 0 !== options.click && void 0 === options.tap && (options.tap = options.click), options || (options = {}), options = $.extend({}, $.fn.swipe.defaults, options), this.each(function() {
